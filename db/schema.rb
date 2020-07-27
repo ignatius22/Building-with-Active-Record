@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2020_07_27_125942) do
     t.string "text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "post_id"
   end
 
   create_table "posts", force: :cascade do |t|
