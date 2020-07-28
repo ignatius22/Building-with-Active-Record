@@ -8,7 +8,7 @@ This project is about creating the Model part of the MVC structured Ruby on Rail
 - Rails 6.0.3.2
 - VS Code
 
-![screenshot](app_screenshot.png)
+![screenshot](app_screenshot.PNG)
 
 
 ## Prerequisites
