@@ -3,5 +3,5 @@ class Post < ApplicationRecord
   has_many :comments
 
   validates :link, presence: true, length: { minimum: 5 }
-  validates :user_id, presence: true
+  validates :user, presence: true
 end
