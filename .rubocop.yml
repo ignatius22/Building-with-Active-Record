@@ -1,7 +1,6 @@
 AllCops:
   Exclude:
     - "db/**/*"
-    - "db/migrate/*"
     - "bin/*" 
     - "config/**/*"
     - "Guardfile"
@@ -47,7 +46,7 @@ Layout/ExtraSpacing:
   AllowForAlignment: false
 Layout/MultilineMethodCallIndentation:
   Enabled: true
-  EnforcedStyle: indented
+  EnforcedStyle: aligned
 Lint/RaiseException:
   Enabled: false
 Lint/StructNewOverride:
