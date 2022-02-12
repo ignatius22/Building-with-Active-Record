@@ -2,7 +2,7 @@ class User < ApplicationRecord
   has_many :posts, dependent: :destroy
   has_many :comments
 
-  validates :username, uniqueness: true, length: { within: 4..12 }, presence: true
+  validates :name, uniqueness: true, length: { within: 4..12 }, presence: true
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
   validates :email, presence: true,
                     uniqueness: { case_sensitive: false },
